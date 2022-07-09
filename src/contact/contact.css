@@ -1,0 +1,57 @@
+.contactContainer {
+  text-align: center;
+  padding: 5px 30% 5px 30%;
+}
+@media screen and (max-width: 900px) {
+  .contactContainer {
+    width: auto;
+    margin: 0 5% 0 5%;
+  }
+}
+.contactContainer h2 {
+  font-weight: 400;
+  color: #1e1049db;
+}
+.contactContainer p {
+  color: rgb(192, 183, 183);
+  padding: 10px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.contactList {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 40px;
+  list-style: none;
+}
+@media screen and (max-width: 900px) {
+  .contactList {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    gap: 15px;
+  }
+}
+.contactList a {
+  color: #1e1049db;
+  text-decoration: none;
+}
+.contactList a:hover {
+  color: #4322a6db;
+  transition: 0.2s ease-in-out;
+}
+
+.contactFooter {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-weight: ;
+}
+@media screen and (max-width: 900px) {
+  .contactFooter {
+    padding: 0 5px 20px 5px;
+  }
+}

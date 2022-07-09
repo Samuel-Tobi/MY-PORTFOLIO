@@ -1,3 +1,4 @@
+import Contact from "./contact/Contact";
 import Head from "./head/Head";
 import Profile from "./profile/Profile";
 import Project from "./projectSection/Project";
@@ -8,6 +9,7 @@ function App() {
       <Head />
       <Profile />
       <Project />
+      <Contact />
     </div>
   );
 }

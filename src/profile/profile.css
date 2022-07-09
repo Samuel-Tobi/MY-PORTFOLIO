@@ -10,7 +10,7 @@
   align-items: center;
   border-radius: 10px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .profileContainer {
     width: auto;
     height: 600px;
@@ -25,15 +25,14 @@
 }
 
 .profileContainer p {
-  text-align: center;
-  line-height: 80%;
   font-size: 20px;
-  padding: 5px 20% 25px 20%;
-  font-weight: 200;
+  padding: 5px 20% 0px 20%;
   line-height: 24px;
-  display: inline-block;
+  color: rgb(80, 71, 71);
 }
-
+h2 {
+  color: #1e1049db;
+}
 .profileContainer button {
   width: 100px;
   height: 50px;
